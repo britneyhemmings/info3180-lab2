@@ -1,3 +1,67 @@
 body {
     padding-top: 5rem;
 }
+
+.card{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:mediumpurple;
+    text-align: center;
+    padding: 0px 90px 40px 90px;
+    color: #FFFFFF;
+    position: relative;
+    border-radius: 20px;
+    width: 100%;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    background: #FFFFFF;
+    padding: 6px;
+    margin-top: 40px;
+}
+
+.bio-section{
+    background: #FFFFFF;
+    color: #999;
+    padding: 25px 250px 60px 250px;
+    margin: -10px -90px -40px;
+    width: auto;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.statistics {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-bottom: 20px;
+    padding-top: 20px;
+  }
+  
+  .stat {
+    text-align: center;
+    margin-left: 110px;
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+  }
+
+.bio-section button{
+    background: #FFFFFF;
+    color: mediumpurple;
+    border: none;
+    outline: none;
+    box-shadow: 0 5px 10px rgba(147, 112, 216, 0.5);
+    padding: 15px 60px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-bottom: -50px;
+    font-weight: 600;
+    font-size: 16px;
+}
